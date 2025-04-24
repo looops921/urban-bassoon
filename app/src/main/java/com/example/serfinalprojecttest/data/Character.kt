@@ -9,7 +9,7 @@ data class Character(
     val id: Int = 0,
     val name: String,
     val basicBio: String,
-    val imageResId: Int, //For the character images
+    val imageResId: Int,
     val powerRanking: Int,
     val firstAppearance: String,
     val loreText: String
